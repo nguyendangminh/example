@@ -8,8 +8,6 @@ const BrowserWindow = electron.BrowserWindow;
 
 const spawn = require('child_process').spawn;
 const child = spawn('./backend');
-// const child = spawn('ls', ['-lh', '/Users/minhnd']);
-// const child = spawn('ls', ['-lh', '/Users/minhnd'], {stdio: 'inherit'})
 
 
 // Keep a global reference of the window object, if you don't, the window will
